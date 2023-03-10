@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.tour-row{
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+}
+
+.tour-row:last-child{
+    border:none;
+}
+
+.tour-item{
+    padding-right: 2vw; 
+    display:inline-block;
+}
+
+.tour-date{
+    width: 20%;
+    
+}
+
+.tour-city{
+    width: 25%;
+}
+
+.tour-arena{
+    width: 35%;   
+}
+
+.tour-btn{
+    max-width:20%;
+}
+
+.btn{
+    background-color: #56CCF2;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 0.6em;
+    cursor: pointer;
+    padding: 0.6em;
+}
+
+.shop-items {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+.shop-item{
+    margin: 2vw;
+}
+
+.shop-item-title{
+    display:block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    color:#333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image{
+    height: 300px;
+}
+
+.shop-item-details{
+    display:flex;
+    align-items: center;
+    margin:1vw;
+}
+
+.shop-item-price{
+    flex-grow: 1;
+    font-size: 1.5em;
+}
+
+.cart-header{
+    font-size: 1.5em;
+    color:#555;
+    font-weight: bold;
+}
+
+.cart-container{
+    margin:0 auto;
+    max-width:50vw;
+}
+
+.cart-row{
+    padding: 0 auto;
+    display:flex;
+   
+}
+
+.cart-item{
+    width:40%;
+  
+}
+
+.cart-price{
+    width: 20%;
+    
+}
+
+.cart-quantity{
+    width:40%;
+    
+}
+
+.cart-format{
+    display:flex;    
+    align-items:center;
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+    margin-right: 2%;
+    padding: 10px 0;
+}
+
+.cart-item-title{
+    width: 30%;
+    margin-left: 5%;
+}
+
+
+.cart-input{
+    width: 50px;
+    height: 35px;
+    border: 1px solid #777;
+    border-radius: 20%;
+    margin-right: 15px;
+    text-align: center;
+    font-size:1em;
+}
+
+.cart-total{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.cart-total-title{
+    color:#111;
+    font-size: 1.5em;
+}
+
+.cart-total-price{
+    font-size: 1.3em;
+    margin-left: 15px;
+}
+
+.cart-quantity .btn{
+    background-color: rgb(228, 74, 74);
+}
+
+.btn-purchase{
+    margin: 30px auto;
+    display: block;
+    font-size: 1.7em;
+}
